@@ -1,0 +1,21 @@
+C:\Users\Yuki\Documents\Projects\Birthday Reminder\obj\Debug\Birthday Reminder.csprojAssemblyReference.cache
+C:\Users\Yuki\Documents\Projects\Birthday Reminder\obj\Debug\MainWindow.g.cs
+C:\Users\Yuki\Documents\Projects\Birthday Reminder\obj\Debug\App.g.cs
+C:\Users\Yuki\Documents\Projects\Birthday Reminder\obj\Debug\Birthday Reminder_MarkupCompile.cache
+C:\Users\Yuki\Documents\Projects\Birthday Reminder\obj\Debug\Birthday Reminder_MarkupCompile.lref
+C:\Users\Yuki\Documents\Projects\Birthday Reminder\bin\Debug\Birthday Reminder.exe.config
+C:\Users\Yuki\Documents\Projects\Birthday Reminder\bin\Debug\Birthday Reminder.exe
+C:\Users\Yuki\Documents\Projects\Birthday Reminder\bin\Debug\Birthday Reminder.pdb
+C:\Users\Yuki\Documents\Projects\Birthday Reminder\bin\Debug\Dapper.dll
+C:\Users\Yuki\Documents\Projects\Birthday Reminder\bin\Debug\System.Data.SQLite.dll
+C:\Users\Yuki\Documents\Projects\Birthday Reminder\bin\Debug\Dapper.xml
+C:\Users\Yuki\Documents\Projects\Birthday Reminder\bin\Debug\System.Data.SQLite.xml
+C:\Users\Yuki\Documents\Projects\Birthday Reminder\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Yuki\Documents\Projects\Birthday Reminder\obj\Debug\MainWindow.baml
+C:\Users\Yuki\Documents\Projects\Birthday Reminder\obj\Debug\Birthday Reminder.g.resources
+C:\Users\Yuki\Documents\Projects\Birthday Reminder\obj\Debug\Birthday_Reminder.Properties.Resources.resources
+C:\Users\Yuki\Documents\Projects\Birthday Reminder\obj\Debug\Birthday Reminder.csproj.GenerateResource.cache
+C:\Users\Yuki\Documents\Projects\Birthday Reminder\obj\Debug\Birthday Reminder.csproj.CoreCompileInputs.cache
+C:\Users\Yuki\Documents\Projects\Birthday Reminder\obj\Debug\Birthday Reminder.csproj.CopyComplete
+C:\Users\Yuki\Documents\Projects\Birthday Reminder\obj\Debug\Birthday Reminder.exe
+C:\Users\Yuki\Documents\Projects\Birthday Reminder\obj\Debug\Birthday Reminder.pdb
