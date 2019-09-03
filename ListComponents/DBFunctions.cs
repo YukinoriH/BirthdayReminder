@@ -28,6 +28,8 @@ namespace Birthday_Reminder.ListComponents
                 //first value in the ordered BirthdayDb will be the upcoming birthday.
                 if (x.MMDD >= currMMDD && closestIndex == 0)
                 {
+                    String stringDate = x.Date;
+                    DateTime toDate = DateTime.ParseExact(stringDate, "MMMM-dd-yyyy", null);
                     daysAway = x.MMDD - currMMDD;
                     birthdayName = x.Name;
                     birthdayDate = x.Date;
@@ -72,7 +74,7 @@ namespace Birthday_Reminder.ListComponents
                 Age = YearAge.Item2;
             }
 
-            String day = Month + "," + Day + " " + Y;
+            String day = Month + " " + Day + ", " + Y;
             int MMDD = (monToNum[Month] * 100) + Int32.Parse(Day);
             Name = Name.ToUpper();
 

@@ -45,7 +45,9 @@ namespace Birthday_Reminder
                 String cmd = "SELECT Name,Date,Age FROM BirthdayList ORDER BY BirthdayList.Name ASC";
                 var output = connection.Query<Friend>(cmd, new DynamicParameters());
                 FriendList.ItemsSource = output;
+                
             }
+            
         }
 
         private void AddFriendBtn_Click(object sender, RoutedEventArgs e)
@@ -76,5 +78,6 @@ namespace Birthday_Reminder
         {
             DBConnect.ConnectToDB(1, null);
         }
+
     }
 }
