@@ -13,6 +13,23 @@ namespace Birthday_Reminder.ListComponents
 {
     class DBConnect
     {
+        public static void CreateTable()
+        {
+            String tableSQL = "CREATE TABLE BirthdayList (Name varchar(20), Date varchar(20), Age int, MMDD int)";
+            string connectionString = ConfigurationManager.AppSettings["connectionString"];
+            using (SQLiteConnection connection = new SQLiteConnection(connectionString))
+            {
+                connection.Open();
+                SQLiteCommand command = new SQLiteCommand(tableSQL, connection);
+                try {
+                    command.ExecuteNonQuery();
+                }
+                catch (Exception TableExists) { }
+                connection.Close();
+
+            }
+        }
+
         public static void ConnectToDB(int methodNum, Friend person)
         {
             string connectionString = ConfigurationManager.AppSettings["connectionString"];
