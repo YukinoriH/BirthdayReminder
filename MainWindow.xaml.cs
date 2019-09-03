@@ -27,6 +27,10 @@ namespace Birthday_Reminder
         public MainWindow()
         {
             InitializeComponent();
+            try { 
+                CreateTable();
+            }
+            catch (Exception TableExists) { }
             for (int x = 1; x <= 31; x++)
             {
                 FriendDay.Items.Add(x);
@@ -34,6 +38,20 @@ namespace Birthday_Reminder
             DBFunctions.AddDictionary();
             UpdateList();
 
+        }
+
+        private void CreateTable()
+        {
+            String tableSQL = "CREATE TABLE BirthdayList (Name varchar(20), Date varchar(20), Age int, MMDD int)";
+            string connectionString = ConfigurationManager.AppSettings["connectionString"];
+            using (SQLiteConnection connection = new SQLiteConnection(connectionString))
+            {
+                connection.Open();
+                SQLiteCommand command = new SQLiteCommand(tableSQL, connection);
+                command.ExecuteNonQuery();
+                connection.Close();
+
+            }
         }
 
         private void UpdateList()
