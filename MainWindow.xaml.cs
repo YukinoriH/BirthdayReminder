@@ -70,6 +70,13 @@ namespace Birthday_Reminder
 
         private void AddFriendBtn_Click(object sender, RoutedEventArgs e)
         {
+
+            if (FriendName.Text == "" || FriendDay.Text == "" || FriendMonth.Text == "" || FriendYear.Text == "")
+            {
+                String message = "Missing Values";
+                MessageBox.Show(message);
+                return;
+            }
             StringBuilder sb = new StringBuilder();
             sb.Append("(" + FriendDay.Text + ")");
             sb.Append("[" + FriendMonth.Text + "]");
