@@ -1,7 +1,7 @@
 ﻿# Birthday Reminder
 
 This is a desktop application where users are able to add their friend's birthdays to a SQLite database and see
-upcoming birthdays and how many days are remaining until then.
+upcoming birthdays
 
  Note: Only tested in Windows 10
 
